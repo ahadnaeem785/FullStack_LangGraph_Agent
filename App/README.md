@@ -49,8 +49,8 @@ App/
 
 ### **1️⃣ Clone the Repository**
 ```bash
-git clone https://github.com/your-repo/AI-Chatbot.git
-cd AI-Chatbot
+git clone https://github.com/ahadnaeem785/FullStack_LangGraph_Agent
+cd FullStack_LangGraph_Agent
 ```
 
 ### **2️⃣ Install Dependencies**
