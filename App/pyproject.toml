@@ -1,0 +1,33 @@
+[project]
+name = "my-package"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Muhammad Ahad", email = "ahadnaeem785@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.115.11",
+    "langchain>=0.3.19",
+    "langchain-community>=0.3.18",
+    "langchain-groq>=0.2.4",
+    "langchain-openai>=0.3.7",
+    "langgraph>=0.3.2",
+    "pydantic>=2.10.6",
+    "python-dotenv>=1.0.1",
+    "requests>=2.32.3",
+    "starlette>=0.46.0",
+    "streamlit>=1.42.2",
+    "uvicorn>=0.34.0",
+]
+
+[project.scripts]
+my-package = "my_package:main"
+back_end = "my_package.backend:run_backend"
+front_end = "my_package.frontend:run_frontend"
+
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
