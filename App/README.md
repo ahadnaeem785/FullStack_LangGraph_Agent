@@ -136,8 +136,5 @@ This project is licensed under the **MIT License**.
 
 ---
 
-## **📌 Support & Contact**
-For issues or feature requests, please open an issue on GitHub or contact **[your email]**.
-
 🚀 **Happy Coding!**
 
